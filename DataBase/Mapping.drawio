@@ -1,9 +1,63 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.4 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.4">
   <diagram name="Page-1" id="chUQzAX2jWDJ99c_aO13">
-    <mxGraphModel dx="794" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="670" pageHeight="600" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="1004" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="670" pageHeight="600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="rWfCg9TSfhqG7Xw_bbmV-34" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="50" width="930" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="rWfCg9TSfhqG7Xw_bbmV-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="110" width="929" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="rWfCg9TSfhqG7Xw_bbmV-17" value="ID" style="rounded=0;whiteSpace=wrap;html=1;labelBorderColor=none;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="20" y="110" width="33" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="rWfCg9TSfhqG7Xw_bbmV-18" value="NationalID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="51" y="110" width="69" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="rWfCg9TSfhqG7Xw_bbmV-20" value="FName" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="110" width="49" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="rWfCg9TSfhqG7Xw_bbmV-21" value="LName" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="110" width="49" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="rWfCg9TSfhqG7Xw_bbmV-22" value="NickName" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="110" width="59" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="rWfCg9TSfhqG7Xw_bbmV-23" value="Gender" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="110" width="49" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="rWfCg9TSfhqG7Xw_bbmV-24" value="BrithDate" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="110" width="59" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="rWfCg9TSfhqG7Xw_bbmV-26" value="Area" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="110" width="39" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="rWfCg9TSfhqG7Xw_bbmV-27" value="Street" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="110" width="39" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="rWfCg9TSfhqG7Xw_bbmV-28" value="Marital Status" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="110" width="79" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="rWfCg9TSfhqG7Xw_bbmV-29" value="Father Status" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="110" width="79" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="rWfCg9TSfhqG7Xw_bbmV-30" value="Mother Status" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="110" width="79" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="rWfCg9TSfhqG7Xw_bbmV-31" value="Male Children" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="110" width="79" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="rWfCg9TSfhqG7Xw_bbmV-32" value="Female Children" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="110" width="99" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="rWfCg9TSfhqG7Xw_bbmV-33" value="Is Active" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="890" y="110" width="59" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="rWfCg9TSfhqG7Xw_bbmV-35" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Cases&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="50" width="430" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
