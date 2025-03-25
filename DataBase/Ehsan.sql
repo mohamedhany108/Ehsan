@@ -10,3 +10,30 @@ Go
 	Use Ehsan;
 Go
 
+Go 
+	CREATE TABLE Cases (
+		ID INT IDENTITY(1,1) PRIMARY KEY, 
+		NationalID NVARCHAR(14) UNIQUE,  
+		FName NVARCHAR(50) NOT NULL,  
+		LName NVARCHAR(50) NOT NULL,  
+		NickName NVARCHAR(50),  
+		-- Gender: 0 = Female, 1 = Male (default = 0 Female)
+		Gender BIT DEFAULT 0,  
+		BirthDate DATE,  
+		-- This will be a selectable field in the application to ensure consistency in area names
+		Area NVARCHAR(100),  
+		Street NVARCHAR(100),  
+		-- Marital status, predefined values such as:
+		-- ("Single", "Married", "Married with dependents", "Divorced", "Divorced with dependents", "Widowed", "Widowed with dependents")
+		MaritalStatus NVARCHAR(100),  
+		-- Father's and mother's status: 0 = Deceased, 1 = Alive (default = 0 Deceased)
+		FatherStatus BIT DEFAULT 0,  
+		MotherStatus BIT DEFAULT 0,  
+		-- Number of male and female children, stored as TINYINT (0-255)
+		MaleChildren TINYINT DEFAULT 0,  
+		FemaleChildren TINYINT DEFAULT 0,  
+		-- Activity status: 0 = Inactive, 1 = Active (default = 1 Active)
+		IsActive BIT DEFAULT 1  
+	);
+
+Go 
