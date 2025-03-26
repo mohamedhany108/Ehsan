@@ -1,4 +1,4 @@
--- Create By Ahmed Mohamed Ahmed 
+﻿-- Create By Ahmed Mohamed Ahmed 
 Go
 	IF NOT EXISTS (SELECT name FROM sys.databases WHERE name = 'Ehsan')
 		BEGIN
@@ -9,9 +9,9 @@ Go
 Go
 	Use Ehsan;
 Go
-
+-- Create By Ahmed Mohamed Ahmed 
 Go 
-	CREATE TABLE Cases (
+	CREATE TABLE  Cases (
 		ID INT IDENTITY(1,1) PRIMARY KEY, 
 		NationalID NVARCHAR(14) UNIQUE,  
 		FName NVARCHAR(50) NOT NULL,  
@@ -37,3 +37,20 @@ Go
 	);
 
 Go 
+
+-- Create By Ahmed Mohamed Ahmed 
+GO
+	Create Table SeasonallFinancalAid(
+        ID INT IDENTITY(1,1) PRIMARY KEY, 
+        CaseID INT NOT NULL, 
+        SeasonType NVARCHAR(100) NOT NULL,  
+        Amount DECIMAL(18,2) NOT NULL,  
+        RegistrationDate DATE NOT NULL,  
+        ReceivedDate DATE,  
+        Notes NVARCHAR(MAX),  
+        CONSTRAINT FK_SeasonalFinancialAid_Cases FOREIGN KEY (CaseID) 
+        REFERENCES Cases(ID) ON DELETE NO ACTION ON UPDATE CASCADE
+	);
+GO
+
+
