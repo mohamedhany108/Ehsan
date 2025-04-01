@@ -53,4 +53,64 @@ GO
 	);
 GO
 
+-- Create By Ahmed Mohamed Ahmed 
+GO
+	CREATE TABLE SeasonalInKidAid (
+		ID INT IDENTITY(1,1) PRIMARY KEY, 
+		CaseID INT NOT NULL, 
+		SeasonTypes NVARCHAR(100) NOT NULL,  
+		AidType NVARCHAR(100) NOT NULL,  
+		RegistrationDate DATE NOT NULL,  
+		ReceivedDate DATE,  
+		Notes NVARCHAR(MAX),  
+		CONSTRAINT FK_SeasonalInKidAid_Cases FOREIGN KEY (CaseID) 
+		REFERENCES Cases(ID) ON DELETE NO ACTION ON UPDATE CASCADE
+	);
+GO
 
+-- Create By Ahmed Mohamed Ahmed 
+GO
+	CREATE TABLE InKindAid (
+		ID INT IDENTITY(1,1) PRIMARY KEY, 
+		CaseID INT NOT NULL, 
+		AidContent NVARCHAR(255) NOT NULL,  
+		Frequency NVARCHAR(50) NOT NULL,  
+		RegistrationDate DATE NOT NULL,  
+		NextDueDate DATE,  
+		ReceivedCount INT DEFAULT 0,  
+		IsActive BIT NOT NULL DEFAULT 1,  
+		CONSTRAINT FK_InKindAid_Cases FOREIGN KEY (CaseID) 
+		REFERENCES Cases(ID) ON DELETE NO ACTION ON UPDATE CASCADE
+	);
+GO
+
+-- Create By Ahmed Mohamed Ahmed 
+GO
+	CREATE TABLE SpecialAid (
+		ID INT IDENTITY(1,1) PRIMARY KEY, 
+		CaseID INT NOT NULL, 
+		AidType NVARCHAR(100) NOT NULL,  
+		Amount DECIMAL(18,2) NOT NULL,  
+		RegistrationDate DATE NOT NULL,  
+		ReceivedDate DATE,  
+		CONSTRAINT FK_SpecialAid_Cases FOREIGN KEY (CaseID) 
+		REFERENCES Cases(ID) ON DELETE NO ACTION ON UPDATE CASCADE
+	);
+GO
+
+-- Create By Ahmed Mohamed Ahmed 
+GO
+	CREATE TABLE FinancialAid (
+		ID INT IDENTITY(1,1) PRIMARY KEY, 
+		CaseID INT NOT NULL, 
+		AidType NVARCHAR(100) NOT NULL,  
+		Frequency NVARCHAR(50) NOT NULL,  
+		RegistrationDate DATE NOT NULL,  
+		NextDueDate DATE,  
+		Amount DECIMAL(18,2) NOT NULL,  
+		ReceivedCount INT DEFAULT 0,  
+		IsActive BIT NOT NULL DEFAULT 1,  
+		CONSTRAINT FK_FinancialAid_Cases FOREIGN KEY (CaseID) 
+		REFERENCES Cases(ID) ON DELETE NO ACTION ON UPDATE CASCADE
+	);
+GO
