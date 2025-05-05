@@ -15,18 +15,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="HomeForm.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Day.cpp">
+    <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HomeForm.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Day.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
