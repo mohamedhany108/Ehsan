@@ -1,0 +1,95 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ahm11111\\Project2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{51BB9602-6508-55AE-AE0F-839FBF9ACCEF}|Project2.vcxproj|D:\\ahm11111\\Project2\\Today\u0027s page.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
+      "RelativeMoniker": "D:0:0:{51BB9602-6508-55AE-AE0F-839FBF9ACCEF}|Project2.vcxproj|solutionrelative:Today\u0027s page.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51BB9602-6508-55AE-AE0F-839FBF9ACCEF}|Project2.vcxproj|D:\\ahm11111\\Project2\\Today\u0027s page.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{51BB9602-6508-55AE-AE0F-839FBF9ACCEF}|Project2.vcxproj|solutionrelative:Today\u0027s page.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51BB9602-6508-55AE-AE0F-839FBF9ACCEF}|Project2.vcxproj|D:\\ahm11111\\Project2\\Today\u0027s page.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{51BB9602-6508-55AE-AE0F-839FBF9ACCEF}|Project2.vcxproj|solutionrelative:Today\u0027s page.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51BB9602-6508-55AE-AE0F-839FBF9ACCEF}|Project2.vcxproj|D:\\ahm11111\\Project2\\Today\u0027s page.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{51BB9602-6508-55AE-AE0F-839FBF9ACCEF}|Project2.vcxproj|solutionrelative:Today\u0027s page.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Today\u0027s page.h [Design]",
+              "DocumentMoniker": "D:\\ahm11111\\Project2\\Today\u0027s page.h",
+              "RelativeDocumentMoniker": "Today\u0027s page.h",
+              "ToolTip": "D:\\ahm11111\\Project2\\Today\u0027s page.h [Design]",
+              "RelativeToolTip": "Today\u0027s page.h [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-07T23:38:58.318Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Today\u0027s page.h",
+              "DocumentMoniker": "D:\\ahm11111\\Project2\\Today\u0027s page.h",
+              "RelativeDocumentMoniker": "Today\u0027s page.h",
+              "ToolTip": "D:\\ahm11111\\Project2\\Today\u0027s page.h",
+              "RelativeToolTip": "Today\u0027s page.h",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAcwIgBAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-07T23:39:50.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Today\u0027s page.cpp",
+              "DocumentMoniker": "D:\\ahm11111\\Project2\\Today\u0027s page.cpp",
+              "RelativeDocumentMoniker": "Today\u0027s page.cpp",
+              "ToolTip": "D:\\ahm11111\\Project2\\Today\u0027s page.cpp",
+              "RelativeToolTip": "Today\u0027s page.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-07T23:40:00.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Today\u0027s page.resx",
+              "DocumentMoniker": "D:\\ahm11111\\Project2\\Today\u0027s page.resx",
+              "RelativeDocumentMoniker": "Today\u0027s page.resx",
+              "ToolTip": "D:\\ahm11111\\Project2\\Today\u0027s page.resx",
+              "RelativeToolTip": "Today\u0027s page.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-05-07T23:41:38.278Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
